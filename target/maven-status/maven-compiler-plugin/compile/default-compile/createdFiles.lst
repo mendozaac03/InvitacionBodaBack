@@ -18,7 +18,6 @@ com\fiesta\invitaciones\controller\FotosController.class
 com\fiesta\invitaciones\mongo\Rsvp.class
 com\fiesta\invitaciones\dto\InvitadoResponse.class
 com\fiesta\invitaciones\controller\RsvpController.class
-com\fiesta\invitaciones\controller\AdminController.class
 com\fiesta\invitaciones\service\JwtFilter.class
 com\fiesta\invitaciones\dto\DashboardResponse.class
 com\fiesta\invitaciones\mongo\Photo.class
