@@ -12,6 +12,7 @@ com\fiesta\invitaciones\dto\ValidacionRequest.class
 com\fiesta\invitaciones\repository\RsvpRepository.class
 com\fiesta\invitaciones\config\WebConfig.class
 com\fiesta\invitaciones\config\SecurityConfig.class
+com\fiesta\invitaciones\controller\TestController.class
 com\fiesta\invitaciones\repository\PhotoRepository.class
 com\fiesta\invitaciones\InvitacionesApplication.class
 com\fiesta\invitaciones\controller\FotosController.class
