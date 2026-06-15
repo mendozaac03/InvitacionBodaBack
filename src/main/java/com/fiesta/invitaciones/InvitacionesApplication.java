@@ -21,6 +21,8 @@ public class InvitacionesApplication {
 			String uri) {
 
 		return args -> {
+			System.out.println("SPRING VERSION -> "
+					+ org.springframework.core.SpringVersion.getVersion());
 			System.out.println(
 					"MONGODB URI = " + uri
 			);
