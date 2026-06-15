@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: invitaciones
+  #datasource:
+   # url: jdbc:postgresql://localhost:5432/invitations
+    #username: admin
+    #password: secret
+  #jpa:
+   ## hibernate:
+     # ddl-auto: update
+    #show-sql: true
+  mongodb:
+    #uri: mongodb://admin:secret@localhost:27017/invitationsMongo?authSource=admin
+    uri: mongodb+srv://abgTani0315:cY5_zR2S_bYZNj7@clusterboda.jk4h3yp.mongodb.net/invitaciones
+app:
+  jwt:
+    secret: "TANIA_ABDIEL_2026_CAMBIAR_EN_PROD_MIN_256_BITS"
+
+
+
