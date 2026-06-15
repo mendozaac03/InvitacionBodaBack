@@ -2,6 +2,7 @@ package com.fiesta.invitaciones.controller;
 
 import com.fiesta.invitaciones.mongo.Guest;
 import com.fiesta.invitaciones.repository.GuestRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 
+@Slf4j
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping("/guest")
@@ -24,8 +26,12 @@ public class GuestController {
 
     @GetMapping("/{code}")
     public Guest getGuest(@PathVariable String code){
-        Optional<Guest> invitado =repository.findByCode(code);
-
+        Optional<Guest> invitado = Optional.empty();
+        try {
+            invitado =repository.findByCode(code);
+        }catch (Exception e){
+            log.info("Error al consultar ---------", e);
+        }
         return invitado.isPresent() ? invitado.get(): Guest.builder().code("-----").build();
 
     }
