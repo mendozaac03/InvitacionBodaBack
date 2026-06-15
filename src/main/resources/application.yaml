@@ -1,17 +1,9 @@
+server:
+  port: 8080
 spring:
   application:
     name: invitaciones
-  #datasource:
-   # url: jdbc:postgresql://localhost:5432/invitations
-    #username: admin
-    #password: secret
-  #jpa:
-   ## hibernate:
-     # ddl-auto: update
-    #show-sql: true
-data:
   mongodb:
-    #uri: mongodb://admin:secret@localhost:27017/invitationsMongo?authSource=admin
     uri: mongodb+srv://abgTani0315:cY5_zR2S_bYZNj7@clusterboda.jk4h3yp.mongodb.net/invitaciones?retryWrites=true&w=majority
 app:
   jwt:
