@@ -134,10 +134,7 @@
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
-			<dependency>
-				<groupId>org.mongodb</groupId>
-				<artifactId>mongodb-driver-sync</artifactId>
-			</dependency>
+
     </dependencies>
 
 	<build>

@@ -9,9 +9,10 @@ spring:
    ## hibernate:
      # ddl-auto: update
     #show-sql: true
+data:
   mongodb:
     #uri: mongodb://admin:secret@localhost:27017/invitationsMongo?authSource=admin
-    uri: mongodb+srv://abgTani0315:cY5_zR2S_bYZNj7@clusterboda.jk4h3yp.mongodb.net/invitaciones
+    uri: mongodb+srv://abgTani0315:cY5_zR2S_bYZNj7@clusterboda.jk4h3yp.mongodb.net/invitaciones?retryWrites=true&w=majority
 app:
   jwt:
     secret: "TANIA_ABDIEL_2026_CAMBIAR_EN_PROD_MIN_256_BITS"
