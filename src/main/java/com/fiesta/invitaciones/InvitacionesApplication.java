@@ -17,14 +17,14 @@ public class InvitacionesApplication {
 	}
 	@Bean
 	public CommandLineRunner testMongoConfig(
-			@Value("${spring.mongodb.uri}")
+			@Value("${spring.data.mongodb.uri}")
 			String uri) {
 
 		return args -> {
 			System.out.println("SPRING VERSION -> "
 					+ org.springframework.core.SpringVersion.getVersion());
 			System.out.println(
-					"MONGODB URI = " + uri
+					"MONGODB URI-------------------------------->>>>>>>>>>>>>>>>>> = " + uri
 			);
 		};
 	}
