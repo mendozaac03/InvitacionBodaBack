@@ -1,6 +1,7 @@
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\config\JwtConfig.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\config\SecurityConfig.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\config\WebConfig.java
+C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller\DashboardController.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller\FotosController.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller\GuestController.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller\QrController.java
@@ -9,6 +10,7 @@ C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\controller\TestController.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\dto\DashboardResponse.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\dto\InvitadoResponse.java
+C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\dto\InvitationStatus.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\dto\ValidacionRequest.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\dto\ValidacionResponse.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\InvitacionesApplication.java
@@ -20,6 +22,7 @@ C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\repository
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\repository\PhotoRepository.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\repository\RsvpRepository.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\repository\SongSuggestionRepository.java
+C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\service\DashboardService.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\service\JwtFilter.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\service\JwtService.java
 C:\Users\ABG\InvitacionBodaBack\src\main\java\com\fiesta\invitaciones\service\QrService.java

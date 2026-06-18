@@ -10,6 +10,7 @@ com\fiesta\invitaciones\mongo\SongSuggestion.class
 com\fiesta\invitaciones\controller\SongController.class
 com\fiesta\invitaciones\dto\ValidacionRequest.class
 com\fiesta\invitaciones\repository\RsvpRepository.class
+com\fiesta\invitaciones\dto\InvitationStatus.class
 com\fiesta\invitaciones\config\WebConfig.class
 com\fiesta\invitaciones\config\SecurityConfig.class
 com\fiesta\invitaciones\controller\TestController.class
@@ -18,9 +19,11 @@ com\fiesta\invitaciones\InvitacionesApplication.class
 com\fiesta\invitaciones\controller\FotosController.class
 com\fiesta\invitaciones\mongo\Rsvp.class
 com\fiesta\invitaciones\dto\InvitadoResponse.class
+com\fiesta\invitaciones\service\DashboardService.class
 com\fiesta\invitaciones\controller\RsvpController.class
 com\fiesta\invitaciones\service\JwtFilter.class
 com\fiesta\invitaciones\dto\DashboardResponse.class
 com\fiesta\invitaciones\mongo\Photo.class
 com\fiesta\invitaciones\controller\GuestController.class
+com\fiesta\invitaciones\controller\DashboardController.class
 com\fiesta\invitaciones\mongo\Guest.class
