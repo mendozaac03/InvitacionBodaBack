@@ -20,6 +20,7 @@ public class SongController {
     @PostMapping("/song")
     public SongSuggestion saveSong(
             @RequestBody SongSuggestion request){
+        System.out.println("valor del usuario actual-------------------->" + request.getUsuarioActual());
         log.info("valor del usuario actual-------------------->",request.getUsuarioActual());
         return repository.save(request);
     }
