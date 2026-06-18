@@ -15,7 +15,6 @@ public class SongSuggestion {
 
     private String guestName;
     private String songName;
-    private String youtubeLink;
     private String usuarioActual;
 
 }
