@@ -12,7 +12,6 @@ public class SongSuggestion {
 
     @Id
     private String id;
-
     private String guestName;
     private String songName;
     private String usuarioActual;
