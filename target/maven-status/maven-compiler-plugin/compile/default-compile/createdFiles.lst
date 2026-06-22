@@ -25,5 +25,6 @@ com\fiesta\invitaciones\service\JwtFilter.class
 com\fiesta\invitaciones\dto\DashboardResponse.class
 com\fiesta\invitaciones\mongo\Photo.class
 com\fiesta\invitaciones\controller\GuestController.class
+com\fiesta\invitaciones\controller\HealthController.class
 com\fiesta\invitaciones\controller\DashboardController.class
 com\fiesta\invitaciones\mongo\Guest.class
